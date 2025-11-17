@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Food Expiry Tracker",
+    "overview": "Web app that helps users track food items and get alerts before they expire to reduce food waste.",
+    "imageUrl": "https://images.unsplash.com/photo-1648775170273-dcbe48fb12a0?w=500&auto=format&fit=crop&q=60",
+    "liveLink": "https://food-tracker-auth.web.app/",
+    "githubLink": "https://github.com/Siiwowowow/Food-Tracker",
+    "techStack": ["React", "Node.js", "Express", "MongoDB"],
+    "challenges": [
+      "Implementing user authentication.",
+      "Managing date-based alerts.",
+      "Ensuring data security."
+    ],
+    "futurePlans": [
+      "Integrate barcode scanner.",
+      "Add social features.",
+      "Create recipe suggestions."
+    ],
+    "screenshots": ["/ss.png"]
+  },
+  {
+    "name": "Sports Club System",
+    "overview": "Handles user registration, membership management, bookings, payments, and admin functions.",
+    "imageUrl": "https://images.unsplash.com/photo-1604651684573-05470013b3b9?w=500&auto=format&fit=crop&q=60",
+    "liveLink": "https://a-12-sport-org.web.app/",
+    "githubLink": "https://github.com/Siiwowowow/SPORTS-CLUB-MANAGEMENT-SYSTEM",
+    "techStack": ["React", "Firebase", "Tailwind CSS", "Stripe API"],
+    "challenges": [
+      "Managing different user roles.",
+      "Payment gateway integration.",
+      "Designing booking calendar."
+    ],
+    "futurePlans": [
+      "Add community forum.",
+      "Organize tournaments.",
+      "Enhance admin analytics."
+    ],
+    "screenshots": ["/ss.png"]
+  },
+  {
+    "name": "Roommate Finder",
+    "overview": "A platform that helps individuals find compatible roommates based on location, budget, lifestyle preferences, and interests.",
+    "imageUrl": "https://images.unsplash.com/photo-1511649475669-e288648b2339?w=500&auto=format&fit=crop&q=60",
+    "liveLink": "https://room-mate-auth.web.app/",
+    "githubLink": "https://github.com/Siiwowowow/Room-Mate-Finder",
+    "techStack": ["React", "Firebase", "Tailwind CSS", "Redux"],
+    "challenges": [
+      "Designing a secure authentication system.",
+      "Handling real-time chat functionality.",
+      "Optimizing search queries for performance."
+    ],
+    "futurePlans": [
+      "Implement a matching algorithm for better compatibility.",
+      "Add a feature for group housing.",
+      "Build a dedicated mobile app."
+    ],
+    "screenshots": ["/ss.png"]
+  },
+  {
+    "name": "Student Toolkit",
+    "overview": "A full-stack MERN application designed to make student life easier by providing essential tools like class scheduling, budget tracking, exam prep, and productivity utilities.",
+    "imageUrl": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&auto=format&fit=crop&q=60",
+    "liveLink": "https://student-toolkit-17af6.web.app/",
+    "githubClient": "https://github.com/Siiwowowow/Student-toolkit-rep-client",
+    "githubServer": "https://github.com/Siiwowowow/Student-toolkit-real-server",
+    "techStack": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    "challenges": [
+      "Integrating multiple student productivity tools in one platform.",
+      "Ensuring smooth CRUD operations with MongoDB.",
+      "Designing responsive and user-friendly dashboards."
+    ],
+    "futurePlans": [
+      "Add AI-powered study suggestions.",
+      "Enable collaboration features for group projects.",
+      "Launch a mobile app version."
+    ],
+    "screenshots": ["/ss.png"]
+  }
+]
