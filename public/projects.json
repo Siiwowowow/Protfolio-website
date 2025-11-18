@@ -1,79 +1,205 @@
 [
   {
-    "name": "Food Expiry Tracker",
-    "overview": "Web app that helps users track food items and get alerts before they expire to reduce food waste.",
-    "imageUrl": "https://images.unsplash.com/photo-1648775170273-dcbe48fb12a0?w=500&auto=format&fit=crop&q=60",
-    "liveLink": "https://food-tracker-auth.web.app/",
-    "githubLink": "https://github.com/Siiwowowow/Food-Tracker",
-    "techStack": ["React", "Node.js", "Express", "MongoDB"],
-    "challenges": [
-      "Implementing user authentication.",
-      "Managing date-based alerts.",
-      "Ensuring data security."
-    ],
-    "futurePlans": [
-      "Integrate barcode scanner.",
-      "Add social features.",
-      "Create recipe suggestions."
-    ],
-    "screenshots": ["/ss.png"]
-  },
-  {
     "name": "Sports Club System",
-    "overview": "Handles user registration, membership management, bookings, payments, and admin functions.",
-    "imageUrl": "https://images.unsplash.com/photo-1604651684573-05470013b3b9?w=500&auto=format&fit=crop&q=60",
+    "overview": "Complete platform for membership, bookings, payments, and admin management.",
+    "imageUrl": "https://i.postimg.cc/JhRFvwWh/Screenshot-3.png",
     "liveLink": "https://a-12-sport-org.web.app/",
     "githubLink": "https://github.com/Siiwowowow/SPORTS-CLUB-MANAGEMENT-SYSTEM",
-    "techStack": ["React", "Firebase", "Tailwind CSS", "Stripe API"],
-    "challenges": [
-      "Managing different user roles.",
-      "Payment gateway integration.",
-      "Designing booking calendar."
-    ],
-    "futurePlans": [
-      "Add community forum.",
-      "Organize tournaments.",
-      "Enhance admin analytics."
-    ],
-    "screenshots": ["/ss.png"]
+    "techStack": ["React", "Firebase", "Stripe", "Tailwind"],
+    "challenges": ["Multi-role access", "Payment integration", "Booking system"],
+    "futurePlans": ["Tournaments", "Community", "Analytics"],
+    "features": ["Multi-role System", "Payment Gateway", "Booking Management", "Admin Dashboard"],
+    "screenshots": ["/ss.png"],
+    "icon": "💪",
+    "category": "Management",
+    "status": "Live",
+    "color": "from-orange-400 to-red-400",
+    "accentColor": "orange",
+    "complexity": "Intermediate",
+    "timeline": "2 months"
   },
   {
-    "name": "Roommate Finder",
-    "overview": "A platform that helps individuals find compatible roommates based on location, budget, lifestyle preferences, and interests.",
-    "imageUrl": "https://images.unsplash.com/photo-1511649475669-e288648b2339?w=500&auto=format&fit=crop&q=60",
-    "liveLink": "https://room-mate-auth.web.app/",
-    "githubLink": "https://github.com/Siiwowowow/Room-Mate-Finder",
-    "techStack": ["React", "Firebase", "Tailwind CSS", "Redux"],
+    "name": "Food Expiry Tracker",
+    "overview": "Smart food tracking with predictive alerts to reduce waste through intelligent analytics.",
+    "imageUrl": "https://i.postimg.cc/Wb2JdXjs/Screenshot-1.png",
+    "liveLink": "https://food-tracker-auth.web.app/",
+    "githubLink": "https://github.com/Siiwowowow/Food-Tracker",
+    "techStack": ["React", "Node.js", "MongoDB", "JWT"],
+    "challenges": ["Real-time notifications", "Predictive algorithms", "Data security"],
+    "futurePlans": ["Barcode scanner", "Recipe engine", "Social features"],
+    "features": ["AI Predictions", "Real-time Tracking", "Smart Alerts", "Analytics Dashboard"],
+    "screenshots": ["/ss.png"],
+    "icon": "🥑",
+    "category": "Productivity",
+    "status": "Live",
+    "color": "from-emerald-400 to-cyan-400",
+    "accentColor": "emerald",
+    "complexity": "Advanced",
+    "timeline": "3 months"
+  },
+  {
+    "name": "LMS Project – Monon Academy",
+    "overview": "A modern Bangladeshi online learning platform built with Next.js, offering structured courses, video lessons, and a smooth learning experience for SSC, HSC, Admission, and Skill-based students.",
+    "imageUrl": "https://i.ibb.co.com/GfkMNjHy/Screenshot-6.png",
+    "liveLink": "https://monon-academy.vercel.app/",
+    "githubClient": "https://github.com/Siiwowowow/Monon-Academy-Lms-Project",
+    "techStack": ["Next.js", "MongoDB", "Tailwind CSS", "React"],
+    "features": [
+      "Course listing with categories",
+      "Course details with video lessons",
+      "User authentication (Signup & Login)",
+      "Responsive, mobile-friendly UI",
+      "MongoDB database integration"
+    ],
     "challenges": [
-      "Designing a secure authentication system.",
-      "Handling real-time chat functionality.",
-      "Optimizing search queries for performance."
+      "Building a clean LMS structure for Bangladeshi learners",
+      "Protecting premium video content",
+      "Designing a smooth mobile-first experience"
     ],
     "futurePlans": [
-      "Implement a matching algorithm for better compatibility.",
-      "Add a feature for group housing.",
-      "Build a dedicated mobile app."
+      "bKash/Nagad payment integration",
+      "Instructor & Admin dashboards",
+      "MCQ exam system and certificates"
     ],
-    "screenshots": ["/ss.png"]
+    "screenshots": ["/ss.png"],
+    "icon": "🎓",
+    "category": "LMS",
+    "status": "Live",
+    "color": "from-green-500 to-blue-500",
+    "accentColor": "blue",
+    "complexity": "Intermediate",
+    "timeline": "2.5 months",
+    "description": "A lightweight and user-friendly LMS built for Bangladeshi students, focusing on structured courses, easy navigation, and fast performance using Next.js and MongoDB."
+  },
+  {
+  "name": "Ezi Drop Delivery Service Platform",
+  "overview": "A modern delivery and logistics platform built for Bangladeshi users, offering fast parcel delivery, rider tracking, real-time communication, and a clean dashboard experience for customers and admins.",
+  "imageUrl": "https://i.ibb.co.com/gZvm8kf8/Screenshot-7.png",
+  "liveLink": "https://ezi-drop.vercel.app/",
+  "githubClient": "https://github.com/mahbub-alam-dave/ezi-drop",
+
+  "techStack": ["Next.js", "MongoDB", "Tailwind CSS", "React"],
+
+  "features": [
+    "Instant parcel booking",
+    "Live delivery tracking",
+    "User dashboard & parcel history",
+    "Admin parcel management",
+    "Real-time chat between users and delivery riders",
+    "Weather-based delivery updates",
+    "Secure authentication system"
+  ],
+
+  "challenges": [
+    "Designing a scalable delivery workflow",
+    "Real-time chat and notifications",
+    "Creating separate dashboards for users, riders, and admins",
+    "Handling dynamic order status updates"
+  ],
+
+  "futurePlans": [
+    "bKash & Nagad payment integration",
+    "Rider location live GPS tracking",
+    "Delivery route optimization",
+    "AI-based delivery time prediction"
+  ],
+
+  "groupProject": true,
+
+  "myContribution": [
+    "User Dashboard UI/UX and functionality",
+    "Admin Dashboard with parcel management tools",
+    "Real-time Chat System for users and riders",
+    "Weather API integration for delivery updates",
+    "Authentication and role-based access control"
+  ],
+
+  "screenshots": ["/ss.png"],
+  "icon": "🚚",
+  "category": "Delivery Service",
+  "status": "Group-Project Live",
+  "color": "from-green-500 to-blue-500",
+  "accentColor": "blue",
+  "complexity": "Intermediate",
+  "timeline": "3 months",
+
+  "description": "Ezi Drop is a collaborative delivery service platform designed for Bangladeshi users, offering smooth parcel booking, real-time tracking, secure dashboards, and instant communication features using Next.js and MongoDB."
+},
+  {
+    "name": "Roommate Finder",
+    "overview": "AI-powered platform connecting compatible roommates through smart matching.",
+    "imageUrl": "https://i.postimg.cc/WzSmdyHp/Screenshot-5.png",
+    "liveLink": "https://room-mate-auth.web.app/",
+    "githubLink": "https://github.com/Siiwowowow/Room-Mate-Finder",
+    "techStack": ["React", "Firebase", "Redux", "Chat"],
+    "challenges": ["Secure auth", "Real-time chat", "Search optimization"],
+    "futurePlans": ["AI matching", "Group housing", "Mobile app"],
+    "features": ["AI Matching", "Real-time Chat", "Secure Authentication", "Smart Search"],
+    "screenshots": ["/ss.png"],
+    "icon": "🏠",
+    "category": "Social",
+    "status": "Live",
+    "color": "from-purple-400 to-pink-400",
+    "accentColor": "purple",
+    "complexity": "Advanced",
+    "timeline": "4 months"
   },
   {
     "name": "Student Toolkit",
-    "overview": "A full-stack MERN application designed to make student life easier by providing essential tools like class scheduling, budget tracking, exam prep, and productivity utilities.",
-    "imageUrl": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&auto=format&fit=crop&q=60",
+    "overview": "All-in-one MERN platform for student productivity and organization.",
+    "imageUrl": "https://i.postimg.cc/PrsnyRJ0/Screenshot-4.png",
     "liveLink": "https://student-toolkit-17af6.web.app/",
     "githubClient": "https://github.com/Siiwowowow/Student-toolkit-rep-client",
     "githubServer": "https://github.com/Siiwowowow/Student-toolkit-real-server",
-    "techStack": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    "techStack": ["MERN Stack", "Tailwind", "Full Stack"],
+    "challenges": ["Multi-tool integration", "CRUD operations", "Dashboard design"],
+    "futurePlans": ["AI suggestions", "Collaboration", "Mobile version"],
+    "features": ["Multi-tool Platform", "CRUD Operations", "Dashboard Analytics", "Task Management"],
+    "screenshots": ["/ss.png"],
+    "icon": "🎓",
+    "category": "Education",
+    "status": "Live",
+    "color": "from-blue-400 to-cyan-400",
+    "accentColor": "blue",
+    "complexity": "Intermediate",
+    "timeline": "3 months"
+  },
+  {
+    "name": "E-Commerce Website",
+    "overview": "Modern full-stack E-Commerce platform built with Next.js, featuring dynamic products, user authentication, secure checkout, and an optimized shopping experience.",
+    "imageUrl": "https://i.postimg.cc/WbbPFJyP/Screenshot-2.png",
+    "liveLink": "https://next-ecommerce-website-chi.vercel.app/",
+    "githubClient": "https://github.com/Siiwowowow/nextjs-rafs_san_mart",
+    "githubServer": null,
+    "techStack": ["Next.js", "MongoDB", "Tailwind CSS", "Full Stack"],
     "challenges": [
-      "Integrating multiple student productivity tools in one platform.",
-      "Ensuring smooth CRUD operations with MongoDB.",
-      "Designing responsive and user-friendly dashboards."
+      "Product management & dynamic filtering",
+      "User authentication & secure login system",
+      "Database integration with MongoDB",
+      "Responsive UI & optimized performance"
     ],
     "futurePlans": [
-      "Add AI-powered study suggestions.",
-      "Enable collaboration features for group projects.",
-      "Launch a mobile app version."
+      "Payment Gateway Integration (Stripe)",
+      "Admin Dashboard for Products & Orders",
+      "User Order History & Wishlist",
+      "Enhanced SEO & analytics tracking"
     ],
-    "screenshots": ["/ss.png"]
+    "features": [
+      "Dynamic Product Listing",
+      "Product Details Page",
+      "User Authentication (Signup & Login)",
+      "Add to Cart System",
+      "Responsive & Modern UI",
+      "MongoDB Database Integration"
+    ],
+    "screenshots": ["/ss.png"],
+    "icon": "🛒",
+    "category": "E-Commerce",
+    "status": "Live",
+    "color": "from-pink-500 to-orange-400",
+    "accentColor": "orange",
+    "complexity": "Intermediate",
+    "timeline": "2.5 months"
   }
+  
 ]

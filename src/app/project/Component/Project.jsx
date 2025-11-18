@@ -67,125 +67,13 @@ export default function Projects() {
     'MERN Stack': <FaNetworkWired />,
     'Full Stack': <FaCogs />
   };
+  const [projects, setProjects] = useState([]);
 
-  const projects = [
-    {
-      name: 'Food Expiry Tracker',
-      overview: 'Smart food tracking with predictive alerts to reduce waste through intelligent analytics.',
-      imageUrl: 'https://i.postimg.cc/Wb2JdXjs/Screenshot-1.png',
-      liveLink: 'https://food-tracker-auth.web.app/',
-      githubLink: 'https://github.com/Siiwowowow/Food-Tracker',
-      techStack: ['React', 'Node.js', 'MongoDB', 'JWT'],
-      challenges: ['Real-time notifications', 'Predictive algorithms', 'Data security'],
-      futurePlans: ['Barcode scanner', 'Recipe engine', 'Social features'],
-      features: ['AI Predictions', 'Real-time Tracking', 'Smart Alerts', 'Analytics Dashboard'],
-      screenshots: [ss],
-      icon: '🥑',
-      category: 'Productivity',
-      status: 'Live',
-      color: 'from-emerald-400 to-cyan-400',
-      accentColor: 'emerald',
-      complexity: 'Advanced',
-      timeline: '3 months'
-    },
-    {
-      name: 'Sports Club System',
-      overview: 'Complete platform for membership, bookings, payments, and admin management.',
-      imageUrl: 'https://i.postimg.cc/JhRFvwWh/Screenshot-3.png',
-      liveLink: 'https://a-12-sport-org.web.app/',
-      githubLink: 'https://github.com/Siiwowowow/SPORTS-CLUB-MANAGEMENT-SYSTEM',
-      techStack: ['React', 'Firebase', 'Stripe', 'Tailwind'],
-      challenges: ['Multi-role access', 'Payment integration', 'Booking system'],
-      futurePlans: ['Tournaments', 'Community', 'Analytics'],
-      features: ['Multi-role System', 'Payment Gateway', 'Booking Management', 'Admin Dashboard'],
-      screenshots: [ss],
-      icon: '💪',
-      category: 'Management',
-      status: 'Live',
-      color: 'from-orange-400 to-red-400',
-      accentColor: 'orange',
-      complexity: 'Intermediate',
-      timeline: '2 months'
-    },
-    {
-      name: 'Roommate Finder',
-      overview: 'AI-powered platform connecting compatible roommates through smart matching.',
-      imageUrl: 'https://i.postimg.cc/WzSmdyHp/Screenshot-5.png',
-      liveLink: 'https://room-mate-auth.web.app/',
-      githubLink: 'https://github.com/Siiwowowow/Room-Mate-Finder',
-      techStack: ['React', 'Firebase', 'Redux', 'Chat'],
-      challenges: ['Secure auth', 'Real-time chat', 'Search optimization'],
-      futurePlans: ['AI matching', 'Group housing', 'Mobile app'],
-      features: ['AI Matching', 'Real-time Chat', 'Secure Authentication', 'Smart Search'],
-      screenshots: [ss],
-      icon: '🏠',
-      category: 'Social',
-      status: 'Live',
-      color: 'from-purple-400 to-pink-400',
-      accentColor: 'purple',
-      complexity: 'Advanced',
-      timeline: '4 months'
-    },
-    {
-      name: 'Student Toolkit',
-      overview: 'All-in-one MERN platform for student productivity and organization.',
-      imageUrl: 'https://i.postimg.cc/PrsnyRJ0/Screenshot-4.png',
-      liveLink: 'https://student-toolkit-17af6.web.app/',
-      githubClient: 'https://github.com/Siiwowowow/Student-toolkit-rep-client',
-      githubServer: 'https://github.com/Siiwowowow/Student-toolkit-real-server',
-      techStack: ['MERN Stack', 'Tailwind', 'Full Stack'],
-      challenges: ['Multi-tool integration', 'CRUD operations', 'Dashboard design'],
-      futurePlans: ['AI suggestions', 'Collaboration', 'Mobile version'],
-      features: ['Multi-tool Platform', 'CRUD Operations', 'Dashboard Analytics', 'Task Management'],
-      screenshots: [ss],
-      icon: '🎓',
-      category: 'Education',
-      status: 'Live',
-      color: 'from-blue-400 to-cyan-400',
-      accentColor: 'blue',
-      complexity: 'Intermediate',
-      timeline: '3 months'
-    },
-    {
-  name: 'E-Commerce Website',
-  overview: 'Modern full-stack E-Commerce platform built with Next.js, featuring dynamic products, user authentication, secure checkout, and an optimized shopping experience.',
-  imageUrl: 'https://i.postimg.cc/WbbPFJyP/Screenshot-2.png',
-  liveLink: 'https://next-ecommerce-website-chi.vercel.app/',
-  githubClient: 'https://github.com/Siiwowowow/nextjs-rafs_san_mart',
-  githubServer: null, // If no server repo, keep null or remove
-  techStack: ['Next.js', 'MongoDB', 'Tailwind CSS', 'Full Stack'],
-  challenges: [
-    'Product management & dynamic filtering',
-    'User authentication & secure login system',
-    'Database integration with MongoDB',
-    'Responsive UI & optimized performance'
-  ],
-  futurePlans: [
-    'Payment Gateway Integration (Stripe)',
-    'Admin Dashboard for Products & Orders',
-    'User Order History & Wishlist',
-    'Enhanced SEO & analytics tracking'
-  ],
-  features: [
-    'Dynamic Product Listing',
-    'Product Details Page',
-    'User Authentication (Signup & Login)',
-    'Add to Cart System',
-    'Responsive & Modern UI',
-    'MongoDB Database Integration'
-  ],
-  screenshots: [ss], 
-  icon: '🛒',
-  category: 'E-Commerce',
-  status: 'Live',
-  color: 'from-pink-500 to-orange-400',
-  accentColor: 'orange',
-  complexity: 'Intermediate',
-  timeline: '2.5 months'
-}
-
-  ];
-
+  useEffect(() => {
+    fetch("/projects.json")
+      .then((res) => res.json())
+      .then((data) => setProjects(data));
+  }, []);
   const filters = [
     { id: 'all', label: 'All', icon: <FaLayerGroup /> },
     { id: 'productivity', label: 'Productivity', icon: <FaBolt /> },
